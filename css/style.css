@@ -1,0 +1,31 @@
+p{
+    border: 0.1rem solid #fff;
+}
+
+
+
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #070606;
+    color: #fff;
+    width: 5rem;
+    padding: 0.5rem;
+    height: 10rem;
+}
+
+ .main{
+    flex-grow: 1;
+} 
+
+@media (max-width: 640px){ 
+.barra-lateral{
+   flex-direction: row;
+   justify-content: space-between;
+   width: 10rem;
+   align-items: flex-end;
+    gap: 0.75rem; 
+   
+}
+}
